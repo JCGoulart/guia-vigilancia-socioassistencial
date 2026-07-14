@@ -38,15 +38,15 @@ export const WELCOME_CONTACT = {
 
 export const OTHER_CADERNOS = [
   {
-    href: 'https://caderno.gofsuasrj.org',
-    label: 'Caderno de Execução Orçamentária e Financeira do SUAS',
-    description: 'Orientações para gestão dos recursos do cofinanciamento estadual',
+    href: 'https://guia-prontuario.sedsodh.org/',
+    label: 'Guia do Prontuário SUAS',
+    description: 'Manual de uso do Prontuário Eletrônico do SUAS',
     accentClass: 'bg-institucional-green',
   },
   {
-    href: 'https://drive.google.com/drive/mobile/folders/1hkNTcAu1do5xu_wEOcgCA-WLbIC54Eax?usp=sharing',
-    label: 'Drive COOVIG',
-    description: 'Materiais da COOVIG para formação e consulta',
+    href: 'https://hub-vigilancia.sedsodh.org/',
+    label: 'Hub da Vigilância Socioassistencial',
+    description: 'Central de informações, indicadores e dados da Vigilância Socioassistencial',
     accentClass: 'bg-institucional-blue',
   },
 ]
