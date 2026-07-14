@@ -5,6 +5,7 @@ import ScrollToTop from '@/components/react/layout/ScrollToTop'
 
 import BlockAccordion from '@/components/react/layout/BlockAccordion'
 import BookViewport from '@/components/react/layout/BookViewport'
+import { WelcomeModal } from '@/components/react/layout/WelcomeModal'
 import { BLOCK_ACCENTS } from '@/lib/constants'
 
 import Capa from '@/components/astro/capitulos/Capa.astro'
@@ -35,6 +36,7 @@ const b = BLOCK_ACCENTS
   <ScrollToTop client:idle />
   <BlockAccordion client:idle />
   <BookViewport client:load />
+  <WelcomeModal client:load />
 
   <div id="main-content" class="max-w-4xl mx-auto my-8 px-4 md:px-8 space-y-4 md:space-y-6">
     <Capa />
