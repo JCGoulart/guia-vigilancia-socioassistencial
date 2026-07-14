@@ -49,4 +49,10 @@ export const OTHER_CADERNOS = [
     description: 'Central de informações, indicadores e dados da Vigilância Socioassistencial',
     accentClass: 'bg-institucional-blue',
   },
+  {
+    href: 'https://caderno.gofsuasrj.org/',
+    label: 'Caderno de Gestão Orçamentária e Financeira do SUAS',
+    description: 'Orientações para gestão dos recursos do cofinanciamento estadual',
+    accentClass: 'bg-institucional-green',
+  },
 ]
