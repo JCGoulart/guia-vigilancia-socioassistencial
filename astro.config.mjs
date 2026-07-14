@@ -2,8 +2,8 @@ import { defineConfig } from 'astro/config'
 import react from '@astrojs/react'
 
 export default defineConfig({
-  site: 'https://sedsodh.github.io',
-  base: '/guia-vigilancia-socioassistencial/',
+  site: 'https://guia-vigilancia.sedsodh.org',
+  base: '/',
   integrations: [
     react(),
   ],
